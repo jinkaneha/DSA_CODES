@@ -15,6 +15,5 @@ int main(){
     int n;
     cin >> n;
     int binary=decimaltobinarymethod1(n);
-    cout << binary << endl;
-    // cout <<binary;
+    cout << binary << endl;// cout <<binary;
 }
