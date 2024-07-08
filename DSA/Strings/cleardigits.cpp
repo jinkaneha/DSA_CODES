@@ -8,6 +8,7 @@ public:
             }
             else{
                 res.pop_back();
+                
             }
         }
         return res;
