@@ -9,6 +9,7 @@ public:
         }
         return ans;
     }
+    
     int addDigits(int num) {
         while(num>9){
             num = solve(num);
