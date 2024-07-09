@@ -35,6 +35,7 @@ int getlength(Node* head){
   }
   return len;
 }
+void insertAtPos(hea)
 int main(){
   Node* first=new Node(10);
   Node* second=new Node(20);
