@@ -40,19 +40,29 @@ class Stack{
     int getsize(){
       return top+1;
     }
-    void isempty(){
+    bool isempty(){
       if(top==-1){
-        cout << "Stack is Empty";
+        return true;
       }  
       else{
-        cout << "Stack not empty"; 
+        return false; 
       }
     }
 };
 
 int main() {
   Stack s(10);
-  s.push(20);
-  s.push(10);
+  s.push(200);
+  s.push(300);
+  s.push(400);
+  s.push(500);
+  s.push(600);
+  s.push(700);
+  //cout << s.gettop() << endl;
+  while(!s.isempty()){
+    cout << s.gettop() << endl;
+    s.pop();
+  }
+  cout << s.gettop() << endl;
   return 0;
 }
