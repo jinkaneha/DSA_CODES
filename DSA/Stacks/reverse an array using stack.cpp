@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-  string str="neha";
+  string str="CODING";
   stack<char> s;
   string res="";
   for(int i=0;i<str.size();i++){
@@ -13,6 +13,6 @@ int main() {
     res+=s.top();
     s.pop();
   }
-  cout << res << endl;
+  cout << "after reversing: " << res << endl;
   return 0;
 }
